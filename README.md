@@ -6,7 +6,7 @@ A PXT packet for Seeed Studio Grove Two Light
 
 ```blocks
 // Create a module driver, specify the i2c address
-let light = Grove_Two_Light.create(DEVICE_ID_TYPE.GROVE_TWO_LIGHT_DEF_I2C_ADDR);
+let light = Grove_Two_Light.create(GROVE_TWO_LIGHT.DEF_I2C_ADDR);
 
 // Get light event vaule and display
 while(true)
